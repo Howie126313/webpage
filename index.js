@@ -8,7 +8,7 @@ var hbs = require('express-handlebars').create({
 });
 var app = express();
 
-app.set('port',process.env.PORT || 3000);   //设置端口
+app.set('port',process.env.PORT || 8080);   //设置端口
 
 //设置模板引擎为express-handlebars
 app.engine('hbs',hbs.engine);
